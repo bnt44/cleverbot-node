@@ -9,7 +9,7 @@ Basic usage:
 
 ```
     var Cleverbot = require('cleverbot-node');
-    cleverbot = new Cleverbot;
+    cleverbot = new Cleverbot();
     Cleverbot.prepare(function(){
       cleverbot.write(cleverMessage, function (response) {
            alert(response.message);
